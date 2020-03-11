@@ -4,15 +4,43 @@
   text-align: center;
 }
 */
+header {
+  padding: 25px;
+}
 
 
-.footer{
-  padding: 4px;
-  min-height: 100vh;
+main {
+  flex-grow: 1;
+  text-align: center;
+  padding: 25px;
+}
+
+ .Row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ 
+.col-1{
+  background-color: aquamarine;
+  width: 100%;
+  height: initial;
+}
+
+.col-2 {
+  background-color: chartreuse;
+  width: 100%;
+  height: end;
+}
+.footer {
+  padding: 2px;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
-  font-size: small;
+  justify-content: center;
+  background: #EEEEEE;
+  font-weight: bold;
+  font-size: 15px;
   text-align: center;
   color: red;
- 
 }
+
